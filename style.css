@@ -136,6 +136,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right:100px;
 }
 
 #begin-footer{
@@ -144,6 +145,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 li{
@@ -211,8 +214,15 @@ hr {
     color: white;    
     font-size: 12px;
     padding: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .underline{
     text-decoration: underline;
+}
+
+#bottom-half{
+    
+    background: #3232AA;
 }
