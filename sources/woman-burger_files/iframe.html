@@ -1,0 +1,88 @@
+
+<!-- saved from url=(0119)https://pixel.mathtag.com/sync/iframe?mt_uuid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e&no_iframe=1&mt_adid=227305&mt_lim=20 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<script type="text/javascript">
+try {
+   /**/
+(function() {
+    try {
+	var sync_4815162342 = function() {
+this.urls = [
+[0, "https://pixel.mathtag.com/misc/img?mop_seq=0:11&mt_cb=941836&mop_top="],
+[30, "https://sync.search.spotxchange.com/partner?adv_id=6653&uid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[66, "https://px.powerlinks.com/user/sync/dsps?userId=5b455d8a-2484-4c00-a52a-ff46dc86fb6e&sourceId=aa4e7548-789b-4df8-a72f-d951a5b206eb"],
+[10011, "https://x.dlx.addthis.com/e/media_math_sync?na_exid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[10041, "https://uipus.semasio.net/mediamath/1/info?sType=sync&sExtCookieId=5b455d8a-2484-4c00-a52a-ff46dc86fb6e&sInitiator=external"],
+[10025, "https://su.addthis.com/red/usync?pid=11112&puid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[39, "https://rtb-csync.smartadserver.com/redir/?partnerid=25&partneruserid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[10042, "https://global.ib-ibi.com/image.sbxx?go=247256&pid=310&xid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[10031, "https://beacon.krxd.net/usermatch.gif?partner=mediamath&_kdpid=8dd53e69-ae3f-4829-8f12-05cc5b57b288&mmuuid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[10004, "https://dpm.demdex.net/ibs:dpid=269&dpuuid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[83, "https://match.sharethrough.com/sync/v1?source_id=sxJxpx7oBnWwaatGE8NyMg2D&source_user_id=5b455d8a-2484-4c00-a52a-ff46dc86fb6e"],
+[0, "https://pixel.mathtag.com/misc/img?mop_seq=10:11&mt_cb=819335&mop_top=30:1572973897|66:1572973897|10011:1572973897|10041:1572973897|10025:1572973897|39:1572973897|10042:1572973897|10031:1572973897|10004:1572973897|83:1572973897|"],
+[51, "https://eb2.3lift.com/xuid?mid=3690&xuid=5b455d8a-2484-4c00-a52a-ff46dc86fb6e&dongle=3995"],
+[0, "https://pixel.mathtag.com/misc/img?mop_seq=11:11&mt_cb=139106&check=5b455d8a-2484-4c00-a52a-ff46dc86fb6e&mop_top=30:1572973897|66:1572973897|10011:1572973897|10041:1572973897|10025:1572973897|39:1572973897|10042:1572973897|10031:1572973897|10004:1572973897|83:1572973897|51:1572973897|"]
+]
+	    this.progress = 0;
+	    var self = this;
+	    var tims = "";
+	    var errs = "";
+	    this.sync = function(i)
+	    {
+		var e = document.createElement("img");
+		var now = new Date();
+		if (e.addEventListener)
+		{
+		    e.addEventListener('load', function() {
+			var temp = new Date().getTime() - now.getTime(); tims += self.urls[i][0]+':'+temp+"|";
+		    });
+		    e.addEventListener('error', function() {
+			var temp = new Date().getTime() - now.getTime(); errs += self.urls[i][0]+':'+temp+"|";
+		    });
+		}
+		e.src = self.urls[i][1];
+	    }
+	    this.batch = function()
+	    {
+		for (var i = self.progress; i < self.urls.length; ++i)
+		{
+		    self.sync(i);
+		}
+	    }
+	    this.final = function()
+	    {
+		var e = document.createElement("img");
+		e.src = self.urls[self.urls.length-1][1]+"&final&timings="+tims+"&errors="+errs;
+	    }
+	    this.some = function(howmany)
+	    {
+		var count = 0;
+		for (var i = self.progress; i < self.urls.length && count < howmany; ++i)
+		{
+		    self.sync(i);
+		    self.progress++;
+		    count++;
+		}
+	    }
+	}
+	var s_4815162342 = new sync_4815162342();
+	s_4815162342.some(1);
+	setTimeout(function(){s_4815162342.some(2);}, 1000);
+	setTimeout(s_4815162342.batch, 3000);
+	setTimeout(s_4815162342.final, 10000);
+    }
+    catch(ex)
+    {
+	document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=syncjs&what="+encodeURIComponent(ex.message);
+    }
+})();
+
+}
+catch(ex)
+{
+   document.createElement("img").src="//pixel.mathtag.com/error/img?error_domain=wrap_iframe&what="+encodeURIComponent(ex.message);
+}
+</script>
+
+
+</body></html>
