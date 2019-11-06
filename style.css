@@ -1,6 +1,6 @@
 
 body{
-    font-family: graphik;
+    font-family: 'arial';
     font-size: 14px;
     line-height: 1.4;
     font-weight: 400;
@@ -12,18 +12,16 @@ body{
 }
 
 #main-text {
-    /* padding: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: flex-start;
     height: 100%;
     width: 100%;
-    /* align-content: flex-start; */
 }
 
 #burger-image {
-  width : 750px
+    width : 750px
 }
 #header{
     display: flex;
@@ -32,14 +30,44 @@ body{
     justify-self: self-end;
     font-size: 20px;
     font-weight: bold;
-    color: blue;
+    color:#0070EB;
     padding-top:50px ;
     padding-bottom: 200px;
-    width: 100%;
-    
+    width: 100%;   
 }
+
+#address-nav{
+    display: flex;
+    justify-content: center;
+}
+#address-nav a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: #0070EB;
+    width:118px;
+    height: 18px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 8px;    
+}
+#address-nav input[type=text] {
+    border: solid 1px grey;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-right: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    width:325px;
+    height: 40px;
+}
+
 #perks{
-padding-right: 40px;
+    padding-right: 40px;
 }
 #sign-in{
     padding-right: 40px;
@@ -48,33 +76,40 @@ padding-right: 40px;
     display: flex;
     justify-items: center;
     align-self: center;
-
+    padding-right:40px;
     justify-self: center;
     height: 100%;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
 #box{
-padding-left: 85px;
-width: 75%;
+    padding-left: 85px;
+    width: 75%;
 }
 
 .themes{
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-bottom: 100px;
-    text-align: center;
+    padding-right:100px;
+    text-align: center; 
 }
-
+.theme-titles{
+    font-weight: bold;
+    font-size: 20px;
+}
 #pickup{
     display: flex;
     justify-content: space-around
 }
 #pickup-text{
     padding-left: 200px;  
+}
+#pickup-h2{
+    font-size: 32px;
 }
 
 #girl-burger{
@@ -92,30 +127,29 @@ width: 75%;
 #about-title{
     display: flex;
     width: 3000px;
+    font-size:18px;
     justify-content: center;
     align-items: center;
-    
 }
 
 #about-text{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #begin-footer{
     background: #3232AA;
-    
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 li{
-padding: 5px 0px; 
-margin: 0;
-list-style-type: none;
+    padding: 5px 0px; 
+    margin: 0;
+    list-style-type: none;
 }
 .list-title{
     font-weight: bold;
@@ -123,6 +157,62 @@ list-style-type: none;
 }
 
 #email-image{
-width:300px;
+    width:300px;
 }
 
+#contact-nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+#contact-nav a{
+    
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: #0070EB;
+    width:223px;
+    height: 18px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 8px;    
+
+}
+#contact-nav input[type=text] {
+    border: solid 1px grey;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-right: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    width:250px;
+    height: 40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#copy-right{
+    border-top: solid 1px grey;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    background: #3232AA;
+    color: white;    
+    font-size: 12px;
+    padding: 15px;
+}
+
+.underline{
+    text-decoration: underline;
+}
